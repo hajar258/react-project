@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     extend: { colors: {
       violet:{
+        600:'#101116',
         500:'#210535',
         400:'#430d4b',
         300:'#7b337d',
