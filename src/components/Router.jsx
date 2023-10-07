@@ -20,7 +20,6 @@ function AppRouter() {
                 <Route path="/" element={<Home />} />
                 <Route path={"/LogIn"} element={<LoginPage />} />
                 <Route path={"/SignUp"} element={<SignupPage />} />
-                >
                 <Route path="*" element={<h1>404: Not Found</h1>} />
             </Routes>
         </BrowserRouter>
