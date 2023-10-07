@@ -1,5 +1,10 @@
 import React from 'react';
-
+import galaxy1 from './../../assets/galaxy1.jpg';
+import galaxy2 from './../../assets/galaxy2.jpg';
+import galaxy3 from './../../assets/galaxy3.jpg';
+import galaxy4 from './../../assets/galaxy4.jpg';
+import galaxy5 from './../../assets/galaxy5.jpg';
+import galaxy6 from './../../assets/galaxy6.jpg';
 
 
 const ProjectList = () => {
@@ -18,7 +23,7 @@ const ProjectList = () => {
     <div className="grid gap-8 lg:grid-cols-3">
     <div className="max-w-sm bg-gradient-to-br from-violet-400 to-violet-200 border-gray-200 rounded-lg shadow dark:bg-gradient-to-br from-violet-400 to-violet-200 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    <img className="rounded-t-lg" src={galaxy1} alt="" />
   </a>
   <div className="p-5">
     <a href="#">
@@ -31,7 +36,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="#"
+      href="/project-view"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -41,7 +46,7 @@ const ProjectList = () => {
 
     <div className="max-w-sm bg-gradient-to-br from-violet-400 to-violet-200 border-gray-200 rounded-lg shadow dark:bg-gradient-to-br from-violet-400 to-violet-200 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    <img className="rounded-t-lg" src={galaxy2} alt="" />
   </a>
   <div className="p-5">
     <a href="#">
@@ -54,7 +59,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="#"
+      href="/project-view"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -64,7 +69,7 @@ const ProjectList = () => {
 
     <div className="max-w-sm bg-gradient-to-br from-violet-400 to-violet-200 border-gray-200 rounded-lg shadow dark:bg-gradient-to-br from-violet-400 to-violet-200 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    <img className="rounded-t-lg" src={galaxy3} alt="" />
   </a>
   <div className="p-5">
     <a href="#">
@@ -77,7 +82,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="#"
+      href="/project-view"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -87,7 +92,7 @@ const ProjectList = () => {
 
     <div className="max-w-sm bg-gradient-to-br from-violet-400 to-violet-200 border-gray-200 rounded-lg shadow dark:bg-gradient-to-br from-violet-400 to-violet-200 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    <img className="rounded-t-lg" src={galaxy4} alt="" />
   </a>
   <div className="p-5">
     <a href="#">
@@ -100,7 +105,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="#"
+      href="/project-view"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -110,7 +115,7 @@ const ProjectList = () => {
 
     <div className="max-w-sm bg-gradient-to-br from-violet-400 to-violet-200 border-gray-200 rounded-lg shadow dark:bg-gradient-to-br from-violet-400 to-violet-200 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    <img className="rounded-t-lg" src={galaxy5} alt="" />
   </a>
   <div className="p-5">
     <a href="#">
@@ -123,7 +128,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="#"
+      href="/project-view"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -133,7 +138,7 @@ const ProjectList = () => {
 
     <div className="max-w-sm bg-gradient-to-br from-violet-400 to-violet-200 border-gray-200 rounded-lg shadow dark:bg-gradient-to-br from-violet-400 to-violet-200 dark:border-gray-700">
   <a href="#">
-    <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+    <img className="rounded-t-lg" src={galaxy6} alt="" />
   </a>
   <div className="p-5">
     <a href="#">
@@ -146,7 +151,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="#"
+      href="/project-view"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
