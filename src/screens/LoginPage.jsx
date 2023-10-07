@@ -5,12 +5,13 @@ import Footer from '../components/Footer';
 
 const LoginPage = () => {
   return (
-    <div>
-      <Header />
+   <div>
+        <Header/>
+        <LoginForm/>
+        <Footer/>
+        
+   </div>
 
-      <Footer />
-
-    </div>
   );
 };
 
