@@ -1,14 +1,16 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Main from '../components/Main';
 
 const HomePage = () => {
   return (
     <div>
       <Header/>
-      <h1>Welcome to My Website</h1>
-      <p>This is the home page of my website.</p>
-      <p>Feel free to explore and enjoy!</p>
+      <Main/>
+      <Footer/>
     </div>
+    
   );
 };
 
