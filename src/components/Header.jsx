@@ -1,5 +1,8 @@
+
 import React, { useState } from 'react';
 import logo from './logo.png';
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -9,16 +12,15 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-green-300 border-black dark:bg-gray-900">
+
+    <nav className="bg-violet-600 border-black dark:bg-violet-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" className="flex items-center">
           <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
         </a>
         <div className="flex md:order-2">
           <a href="https://flowbite.com/" className="flex items-center">
-            <button type="button" className="text-dark bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Get started
-            </button>
+             <button type="button" class="text-black bg-violet-100 hover:bg-violet-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-violet-100 dark:hover:bg-violet-100 dark:focus:ring-blue-800"><a href='/login'> Get Started</a></button>
           </a>
           <div className="relative">
             <button
@@ -56,6 +58,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+
     </nav>
   );
 };
