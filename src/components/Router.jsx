@@ -23,7 +23,7 @@ function AppRouter() {
 
                 <Route path={"/login"} element={<LoginPage />} />
                 <Route path={"/signup"} element={<SignupPage />} />
-                <Route path={"/project-view"} element={<ProjectPage />} />
+                <Route path={"/project-view/:id"} element={<ProjectPage />} />
                 <Route path={"/profile-view/:id"} element={<ProfilePage />} />
                 <Route path="*" element={<h1>404: Not Found</h1>} />
             </Routes>
