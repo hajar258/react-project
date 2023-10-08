@@ -1,13 +1,21 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import galaxy1 from '../assets/galaxy1.jpg';
-
+import galaxy2 from '../assets/galaxy2.jpg';
+import galaxy3 from '../assets/galaxy3.jpg';
+import galaxy4 from '../assets/galaxy4.jpg';
+import galaxy5 from '../assets/galaxy5.jpg';
+import galaxy6 from '../assets/galaxy6.jpg';
 
 const ProjectPage = () => {
+      const { id } = useParams();
+
   return (
 <section className="bg-violet-600 dark:bg-violet-600" >
-<div className="max-w-screen-xl px-8 bg-violet-600  py-8  mx-auto text-center lg:py-16 lg:px-6" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${galaxy1})` ,backgroundPosition: 'center center',backgroundSize: 'cover',
-
-backgroundRepeat: 'no-repeat', width:'100%'}}>
+<div className="max-w-screen-xl px-8 bg-violet-600  py-8  mx-auto text-center lg:py-16 lg:px-6" 
+style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${id==1?galaxy1:id==2?galaxy2:id==3?galaxy3:id==4? galaxy4:id==5?galaxy5:id==6?galaxy6:""})` ,backgroundPosition: 'center center',backgroundSize: 'cover',
+backgroundRepeat: 'no-repeat', width:'100%'}}
+>
     <div className="max-w-screen-xl text-gray-500 sm:text-lg dark:text-gray-400 w-100 px-6" >
       <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
       A Marketplace for Open Science Projects
