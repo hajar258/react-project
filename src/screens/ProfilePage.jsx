@@ -160,17 +160,75 @@ export const ProfilePage = () => {
 
   <div className="max-w-screen-xl px-4 bg-violet-200  py-8 mx-auto text-center lg:py-16 lg:px-6">
   <a
-  href="#"
-  className="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
->
-  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-    Noteworthy technology acquisitions 2021
-  </h5>
-  <p className="font-normal text-gray-700 dark:text-gray-400">
-    Here are the biggest enterprise technology acquisitions of 2021 so far, in
-    reverse chronological order.
-  </p>
-</a>
+    
+    className="block max-w-screen-xl p-6 bg-white border text-left border-gray-200 rounded-lg shadow hover:bg-bg-white dark:bg-white dark:border-bg-white dark:hover:bg-bg-white"
+  >
+    <h5 className="mb-2 text-2xl font-bold tracking-tight text-left text-gray-900 dark:text-gray-900">
+    SUMMARY
+    </h5>
+    <p>There are many different open science and open-source projects and tools, but no efficient way to match project creators with interested collaborators who possess the skills required to contribute. Your challenge is to create a solution that will help people who are looking for open-source projects to work on and project creators who need skilled contributors to find each other and communicate.</p>
+
+  </a>
+
+  
+  <a
+    className="block max-w-screen-xl p-6 bg-white  border text-left border-gray-200 rounded-lg shadow hover:bg-bg-white dark:bg-white dark:border-bg-white dark:hover:bg-bg-white" style={{marginTop:'24px'}}
+  >
+    <h5 className="mb-2 text-2xl font-bold tracking-tight text-left text-gray-900 dark:text-gray-900">
+    EXPERIENCE
+    </h5>
+    <ul className="max-w-screen-xl  space-y-1 text-gray-900 list-inside dark:text-gray-900" style={{width:'100%'}}>
+  <li className="flex items-center" style={{width:'100%'}}>
+    <svg
+      className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+    >
+      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+    </svg>
+    2 years of experience in software development 
+  </li>
+  <li className="flex items-center">
+    <svg
+      className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+    >
+      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+    </svg>
+    5 years of experience in mobile application development   </li>
+  <li className="flex items-center">
+  <svg
+      className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+    >
+      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+    </svg>
+    5 years of experience in MySQL, PostgreSQL, MongooDB 
+  </li>
+  <li className="flex items-center">
+  <svg
+      className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+    >
+      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+    </svg>
+    HTML, JavaScript, CSS, Tailwind, & Bulma
+  </li>
+</ul>
+
+
+  </a>
   </div>
 
 
