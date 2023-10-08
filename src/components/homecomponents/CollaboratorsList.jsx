@@ -170,7 +170,7 @@ const CollaboratorsList = () => {
         </span>
         <div className="flex mt-4 space-x-3 md:mt-6">
           <a
-            href="#"
+            href="/profile-view/1"
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100 dark:hover:bg-violet-100 dark:focus:ring-blue-800"
           >
             View Profile
@@ -200,7 +200,7 @@ const CollaboratorsList = () => {
         </span>
         <div className="flex mt-4 space-x-3 md:mt-6">
           <a
-            href="#"
+            href="/profile-view/2"
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100 dark:hover:bg-violet-100 dark:focus:ring-blue-800"
           >
             View Profile
@@ -230,7 +230,7 @@ const CollaboratorsList = () => {
         </span>
         <div className="flex mt-4 space-x-3 md:mt-6">
           <a
-            href="#"
+            href="/profile-view/3"
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100 dark:hover:bg-violet-100 dark:focus:ring-blue-800"
           >
             View Profile
