@@ -12,6 +12,8 @@ import SignupPage from "../screens/SignupPage";
 import ProjectPage from "../screens/ProjectPage";
 import MyProject from "../screens/MyProject";
 import AllCollaboratoers from "../screens/AllCollaborators";
+import { ProfilePage } from "../screens/ProfilePage";
+
 
 
 
@@ -24,12 +26,10 @@ function AppRouter() {
 
                 <Route path={"/login"} element={<LoginPage />} />
                 <Route path={"/signup"} element={<SignupPage />} />
-                <Route path={"/project-view"} element={<ProjectPage />} />
                 <Route path={"/my-projects"} element={<MyProject/>} />
                 <Route path={"/all-collborators"} element={<AllCollaboratoers/>} />
-
-
-
+                <Route path={"/project-view/:id"} element={<ProjectPage />} />
+                <Route path={"/profile-view/:id"} element={<ProfilePage />} />
                 <Route path="*" element={<h1>404: Not Found</h1>} />
             </Routes>
         </BrowserRouter>

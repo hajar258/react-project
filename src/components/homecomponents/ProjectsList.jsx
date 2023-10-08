@@ -36,7 +36,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="/project-view"
+      href="/project-view/1"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -59,7 +59,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="/project-view"
+      href="/project-view/2"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -82,7 +82,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="/project-view"
+      href="/project-view/3"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -105,7 +105,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="/project-view"
+      href="/project-view/4"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -128,7 +128,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="/project-view"
+      href="/project-view/5"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
@@ -151,7 +151,7 @@ const ProjectList = () => {
       reverse chronological order.
     </p>
     <a
-      href="/project-view"
+      href="/project-view/6"
       className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-violet-100 rounded-lg hover:bg-violet-100  focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-violet-100  dark:hover:bg-violet-100 dark:focus:ring-blue-800"
     >
       View More
