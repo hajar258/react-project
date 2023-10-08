@@ -59,42 +59,28 @@ const ProjectPage = () => {
     </dl>
   </div>
 
-  <div className=" max-w-screen-xl px-4 py-8 mx-auto  lg:py-8  text-left">
-    <div className="mr-auto place-self-center lg:col-span-7 py-6">
-      <h1 className="max-w-2xl mb-4 text-2xl font-light tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-        Description
-      </h1>
-      <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.vvHere at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth. Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth. Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
-
-
-
-    </div>
-    <hr></hr>
-   
+  <div className="max-w-screen-xl px-4 bg-violet-200  py-8 mx-auto text-center lg:py-16 lg:px-6">
+  <a
+  href="#"
+  className="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+>
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+    Noteworthy technology acquisitions 2021
+  </h5>
+  <p className="font-normal text-gray-700 dark:text-gray-400">
+    Here are the biggest enterprise technology acquisitions of 2021 so far, in
+    reverse chronological order.
+  </p>
+</a>
   </div>
 
- 
 
-  <div className=" max-w-screen-xl px-4 py-8 mx-auto  lg:py-8  text-left">
-    <div className="mr-auto place-self-center lg:col-span-7 py-6">
-      <h1 className="max-w-2xl mb-4 text-2xl font-light tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-        Objectives
-      </h1>
-      <ul class="max-w-lg text-gray-500 text-xl text-medium list-disc list-inside dark:text-gray-400">
-    <li>
-        At least 10 characters (and up to 100 characters)
-    </li>
-    <li>
-        At least one lowercase character
-    </li>
-    <li>
-        Inclusion of at least one special character, e.g., ! @ # ?
-    </li>
-</ul>
-    </div>
-    <hr></hr>
-   
-  </div>
+
+
+
+
+
+
 
   
 
