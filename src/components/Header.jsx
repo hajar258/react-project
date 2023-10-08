@@ -15,7 +15,9 @@ const Header = () => {
     <nav className="bg-violet-600 border-black dark:bg-violet-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center">
-          <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
+          <h1 className="max-w-1xl mb-4 text-2xl font-bold tracking-tight leading-none md:text-3xl xl:text-3xl dark:text-white" style={{textAlign: 'left'}}>
+      SciConnect
+      </h1>
         </a>
         <div className="flex md:order-2">
           <a href="/login" className="flex items-center">
@@ -56,7 +58,20 @@ const Header = () => {
             )}
           </div>
         </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-violet-600 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-violet-600 dark:bg-violet-600 md:dark:bg-violet-600 dark:border-violet-600">
+            <li>
+              <a href="/all-collborators" class="block py-2 pl-3 pr-4 text-white bg-violet-600 hover:text-violet-100  dark:hover:text-violet-100 rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white" aria-current="page">Explore Projects</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 pl-3 pr-4 text-white bg-violet-600 hover:text-violet-100  dark:hover:text-violet-100 rounded md:bg-transparent md:text-white md:p-0 md:dark:text-white" aria-current="page">Explore Collaborators</a>
+            </li>
+     
+          </ul>
+        </div>
       </div>
+
+      
 
     </nav>
   );
