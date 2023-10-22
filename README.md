@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# SciConnect React App
 
 This project is a UI design created using Reactjs. 
 
